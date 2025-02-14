@@ -1,0 +1,28 @@
+{
+  "name": "@hollax/cordova-clipboard-image",
+  "version": "1.0.0",
+  "description": "Custom plugin to access clipboard images",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollax/ordova-clipboard-image.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "clipboard"
+  ],
+  "author": "Wakeel Ogunsanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hollax/ordova-clipboard-image/issues"
+  },
+  "homepage": "https://github.com/hollax/ordova-clipboard-image#readme",
+  "devDependencies": {
+    "jasmine": "^5.6.0",
+    "webdriverio": "^9.9.0"
+  }
+}

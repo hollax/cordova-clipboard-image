@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.hollax.clipboardimage"
+        version="1.0.0">
+
+    <name>Clipboard Image Plugin</name>
+    <description>Retrieve images from the clipboard</description>
+    <license>MIT</license>
+
+   <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="ClipboardImage">
+            <param name="service" value="ClipboardImage" />
+            <param name="class" value="com.hollax.clipboardimage.ClipboardImage" />
+        </feature>
+    </config-file>
+    
+    <source-file src="src/android/ClipboardImage.java" target-dir="src/com/hollax/clipboardimage" />
+</platform>
+
+
+    <js-module src="www/clipboardimage.js" name="ClipboardImage">
+        <clobbers target="ClipboardImage" />
+    </js-module>
+</plugin>
